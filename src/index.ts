@@ -6,7 +6,7 @@ import { Server } from 'socket.io';
 
 // Inicializa la aplicación Express
 const app = express();
-const port = 3000;
+const port = 80;
 
 // Crea un servidor HTTP
 const server = http.createServer(app);
